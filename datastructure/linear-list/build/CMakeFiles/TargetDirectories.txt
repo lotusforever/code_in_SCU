@@ -1,0 +1,3 @@
+D:/DevCode/Code_in_SCU/datastructure/linear-list/build/CMakeFiles/linear_list.dir
+D:/DevCode/Code_in_SCU/datastructure/linear-list/build/CMakeFiles/ALL_BUILD.dir
+D:/DevCode/Code_in_SCU/datastructure/linear-list/build/CMakeFiles/ZERO_CHECK.dir

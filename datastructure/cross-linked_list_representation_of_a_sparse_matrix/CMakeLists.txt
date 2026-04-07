@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.31)
+project(cross_linked_list_representation_of_a_sparse_matrix)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(cross_linked_list_representation_of_a_sparse_matrix main.cpp)

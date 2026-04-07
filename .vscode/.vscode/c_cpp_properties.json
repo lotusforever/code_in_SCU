@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**" // 递归扫描项目所有头文件
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\Program Files\\x86_64-15.1.0-release-win32-seh-ucrt-rt_v12-rev0\\mingw64\\bin\\g++.exe", // 改成你自己的g++.exe路径
+            "cStandard": "c17",
+            "cppStandard": "c++20", // 主流C++标准，可改为c++17
+            "intelliSenseMode": "windows-gcc-x64", // 必须和编译器匹配，MinGW选gcc，MSVC选msvc
+            "configurationProvider": "ms-vscode.cmake-tools" // 用CMake时自动生效，单文件可删除
+        }
+    ],
+    "version": 4
+}

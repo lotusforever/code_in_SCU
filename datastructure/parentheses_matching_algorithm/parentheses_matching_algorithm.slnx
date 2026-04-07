@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="parentheses_matching_algorithm/parentheses_matching_algorithm.vcxproj" Id="9db84956-71f6-411a-b9b4-4e5086195f6f" />
+</Solution>

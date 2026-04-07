@@ -1,0 +1,28 @@
+﻿  main.cpp
+D:\DevCode\Code_in_SCU\datastructure\parentheses_matching_algorithm\parentheses_matching_algorithm\node.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“main.cpp”)
+  
+D:\DevCode\Code_in_SCU\datastructure\parentheses_matching_algorithm\parentheses_matching_algorithm\linkstack.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“main.cpp”)
+  
+D:\DevCode\Code_in_SCU\datastructure\parentheses_matching_algorithm\parentheses_matching_algorithm\linkstack.h(78,17): error C2001: 常量中有换行符
+  (编译源文件“main.cpp”)
+  
+D:\DevCode\Code_in_SCU\datastructure\parentheses_matching_algorithm\parentheses_matching_algorithm\linkstack.h(89,17): error C2001: 常量中有换行符
+  (编译源文件“main.cpp”)
+  
+D:\DevCode\Code_in_SCU\datastructure\parentheses_matching_algorithm\parentheses_matching_algorithm\linkstack.h(79,9): error C3878: 语法错误:“expression”后出现意外标记“ElemType”
+  (编译源文件“main.cpp”)
+  
+D:\DevCode\Code_in_SCU\datastructure\parentheses_matching_algorithm\parentheses_matching_algorithm\linkstack.h(82,22): error C2065: “e”: 未声明的标识符
+  (编译源文件“main.cpp”)
+  
+D:\DevCode\Code_in_SCU\datastructure\parentheses_matching_algorithm\parentheses_matching_algorithm\linkstack.h(83,21): error C2065: “e”: 未声明的标识符
+  (编译源文件“main.cpp”)
+  
+D:\DevCode\Code_in_SCU\datastructure\parentheses_matching_algorithm\parentheses_matching_algorithm\linkstack.h(90,5): error C2760: 语法错误: 此处出现意外的“}”；应为“;”
+  (编译源文件“main.cpp”)
+  
+D:\DevCode\Code_in_SCU\datastructure\parentheses_matching_algorithm\parentheses_matching_algorithm\main.cpp(10,25): warning C4805: “==”: 在操作中将类型“char”与类型“bool”混合不安全
+D:\DevCode\Code_in_SCU\datastructure\parentheses_matching_algorithm\parentheses_matching_algorithm\main.cpp(13,25): warning C4805: “==”: 在操作中将类型“char”与类型“bool”混合不安全
+D:\DevCode\Code_in_SCU\datastructure\parentheses_matching_algorithm\parentheses_matching_algorithm\main.cpp(15,23): warning C4805: “==”: 在操作中将类型“char”与类型“bool”混合不安全

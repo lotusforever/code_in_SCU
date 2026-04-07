@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "C++ 编译构建", // 名称必须和launch.json的preLaunchTask完全一致
+            "type": "cppbuild",
+            "command": "C:\\Program Files\\x86_64-15.1.0-release-win32-seh-ucrt-rt_v12-rev0\\mingw64\\bin\\g++.exe", // 改成你的编译器路径：macOS填clang++，Linux填g++
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g", // 必加！生成调试信息，没有这个断点会失效
+                "-std=c++20", // 和c_cpp_properties里的标准保持一致
+                "${file}", // 单文件编译用这个；多文件编译替换为 "${fileDirname}/*.cpp"
+                "-o", // 指定输出文件
+                "${fileDirname}/build/${fileBasenameNoExtension}.exe" // 输出到build文件夹，macOS/Linux去掉.exe后缀
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true // 设为默认构建任务，Ctrl+Shift+B一键编译
+            },
+            "detail": "编译器: 你的g++/clang++路径"
+        }
+    ]
+}
