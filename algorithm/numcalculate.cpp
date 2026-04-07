@@ -6,7 +6,7 @@ int num(int count) {
   if (count == 1) return 1;
   if (count >= 2) {
     for (int i = 1; i <= count / 2; i++) {
-      res += num(i);
+      res += num(i);//依次加上每个子序列
     }
     res++;
     return res;
